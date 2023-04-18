@@ -1,0 +1,31 @@
+version: v1
+
+managed:
+  enabled: true
+  go_package_prefix:
+    default: go.octolab.org/template/service
+    except:
+      - buf.build/googleapis/googleapis
+  override:
+    GO_PACKAGE:
+      v1/service.proto: 'go.octolab.org/template/service/api/rpc/v1'
+
+plugins:
+  - plugin: buf.build/protocolbuffers/go
+    out: api/rpc
+    opt:
+      - paths=source_relative
+  - plugin: buf.build/connectrpc/go
+    out: api/rpc
+    opt:
+      - paths=source_relative
+  - plugin: buf.build/grpc/go
+    out: api/rpc
+    opt:
+      - paths=source_relative
+  - plugin: buf.build/grpc-ecosystem/gateway
+    out: api/rpc
+    opt:
+      - paths=source_relative
+  - plugin: buf.build/grpc-ecosystem/openapiv2
+    out: api/openapi
