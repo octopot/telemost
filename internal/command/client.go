@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	v1 "go.octolab.org/template/service/api/rpc/v1"
-	"go.octolab.org/template/service/api/rpc/v1/v1connect"
-	"go.octolab.org/template/service/internal/config"
+	v1 "go.octolab.org/ecosystem/telemost/api/rpc/v1"
+	"go.octolab.org/ecosystem/telemost/api/rpc/v1/v1connect"
+	"go.octolab.org/ecosystem/telemost/internal/config"
 )
 
 // NewClient returns the new client command.

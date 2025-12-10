@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"go.octolab.org/template/service"
-	v1 "go.octolab.org/template/service/api/rpc/v1"
+	"go.octolab.org/ecosystem/telemost"
+	v1 "go.octolab.org/ecosystem/telemost/api/rpc/v1"
 )
 
 type GRPC struct {

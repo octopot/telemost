@@ -186,11 +186,11 @@ $ wget -qO-  https://install.octolab.org/octomation/service | sh
 
 ```bash
 # use standard go tools
-$ go get go.octolab.org/template/service/cmd/client@latest
-$ go get go.octolab.org/template/service/cmd/server@latest
+$ go get go.octolab.org/ecosystem/telemost/cmd/client@latest
+$ go get go.octolab.org/ecosystem/telemost/cmd/server@latest
 # or use egg tool
-$ egg tools add go.octolab.org/template/service/cmd/client@latest
-$ egg tools add go.octolab.org/template/service/cmd/server@latest
+$ egg tools add go.octolab.org/ecosystem/telemost/cmd/client@latest
+$ egg tools add go.octolab.org/ecosystem/telemost/cmd/server@latest
 ```
 
 ### Shell completions
@@ -236,10 +236,10 @@ $ source <(client completion)
 [awesome.page]:     https://awesome-go.com/project-layout/
 [coverage.icon]:    https://codecov.io/gh/octomation/go-service/branch/main/graph/badge.svg
 [coverage.page]:    https://codecov.io/gh/octomation/go-service
-[quality.icon]:     https://goreportcard.com/badge/go.octolab.org/template/service
-[quality.page]:     https://goreportcard.com/report/go.octolab.org/template/service
-[docs.icon]:        https://pkg.go.dev/badge/go.octolab.org/template/service.svg
-[docs.page]:        https://pkg.go.dev/go.octolab.org/template/service
+[quality.icon]:     https://goreportcard.com/badge/go.octolab.org/ecosystem/telemost
+[quality.page]:     https://goreportcard.com/report/go.octolab.org/ecosystem/telemost
+[docs.icon]:        https://pkg.go.dev/badge/go.octolab.org/ecosystem/telemost.svg
+[docs.page]:        https://pkg.go.dev/go.octolab.org/ecosystem/telemost
 [build.icon]:       https://img.shields.io/badge/ci%2Fcd-GitHub%20Actions-brightgreen
 [build.page]:       https://github.com/octomation/go-service/actions
 [site.icon]:        https://img.shields.io/badge/site-GitHub%20Pages-brightgreen

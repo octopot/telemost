@@ -1,4 +1,4 @@
-module go.octolab.org/template/service
+module go.octolab.org/ecosystem/telemost
 
 go 1.21
 

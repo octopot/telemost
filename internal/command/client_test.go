@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.octolab.org/template/service/internal/command"
-	"go.octolab.org/template/service/internal/config"
+	"go.octolab.org/ecosystem/telemost/internal/command"
+	"go.octolab.org/ecosystem/telemost/internal/config"
 )
 
 func TestNewClient(t *testing.T) {

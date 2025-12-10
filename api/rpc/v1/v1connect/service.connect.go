@@ -12,7 +12,7 @@ import (
 
 	connect "connectrpc.com/connect"
 
-	v1 "go.octolab.org/template/service/api/rpc/v1"
+	v1 "go.octolab.org/ecosystem/telemost/api/rpc/v1"
 )
 
 // This is a compile-time assertion to ensure that this generated file and the connect package are
